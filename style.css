@@ -8,5 +8,11 @@ body {
     text-align:center;
 }
 .rightAlign {
-    text-align:right;
+    text-align:end;
+}
+.headerMain {
+    color:black;
+    text-align:left;
+    font-size:82px;
+    font-family: monospace;
 }

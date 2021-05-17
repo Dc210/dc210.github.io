@@ -31,20 +31,22 @@ a.button:hover, a.button:active {
 .topBar {
     overflow: hidden;
     background-color: rgb(90, 90, 90);
+    position:sticky;
+    position: -webkit-sticky;
+    top: 81;
+    padding-left: 1em;
 }
 
-.topBar a.bar {
+.topBar a{
     float: left;
     display:block;
     color:silver;
     text-align: center;
-    padding:24px 28px;
+    padding: 1em 1.2em;
     text-decoration: none;
-    position:sticky;
-    position: -webkit-sticky;
-    top: 2em;
 }
-.topBar a.bar:hover {
+
+.topBar a:hover {
     background-color: rgb(77, 77, 77);
 }
 

@@ -3,11 +3,7 @@ body {
     background-color: lightblue;
 }
 h1 {
-    width: 100%;
-    margin-top: 0em;
-    margin-left: 0em;
-    position:absolute, sticky, -webkit-sticky;
-    vertical-align: text-top;
+    
     text-align:left;
     color:black;
     font-size:3.5em;
@@ -23,7 +19,12 @@ h1 {
     text-align:end;
 }
 .headerMain {
-    padding:0em;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    position:absolute, sticky, -webkit-sticky;
+    vertical-align: text-top;
+    padding:2em;
     background-color:dimgray;
     border-style: none;
 }

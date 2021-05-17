@@ -38,8 +38,11 @@ a.button:hover, a.button:active {
     display:block;
     color:silver;
     text-align: center;
-    padding:12px 14px;
+    padding:24px 28px;
     text-decoration: none;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 2em;
 }
 .topBar a.bar:hover {
     background-color: rgb(77, 77, 77);
@@ -59,7 +62,6 @@ a.button:hover, a.button:active {
     position: -webkit-sticky;
     top: 0;
     padding-top: 0;
-    padding-bottom: 1px;
     background-color:dimgray;
     border-style: none;
 }

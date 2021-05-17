@@ -4,6 +4,6 @@ body {
 h1 {
     color:slategray;
 }
-center {
+.centerAlign {
     text-align:center;
 }

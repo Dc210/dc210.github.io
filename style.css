@@ -1,9 +1,9 @@
 body {
+    margin: 0;
     font-size: 100%;
     background-color: lightblue;
 }
-h1 {
-    
+.h1 {
     text-align:left;
     color:black;
     font-size:3.5em;
@@ -18,13 +18,10 @@ h1 {
 .rightAlign {
     text-align:end;
 }
-.headerMain {
-    width: 100%;
-    margin-top: 0;
-    margin-left: 0;
-    position:absolute, sticky, -webkit-sticky;
-    vertical-align: text-top;
-    padding:2em;
+.header {
+    position:sticky;
+    position: -webkit-sticky;
+    padding:3em;
     background-color:dimgray;
     border-style: none;
 }

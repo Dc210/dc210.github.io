@@ -3,6 +3,8 @@ body {
     background-color: lightblue;
 }
 h1 {
+    width: 100%;
+    position:absolute, fixed;
     vertical-align: text-top;
     text-align:left;
     color:black;

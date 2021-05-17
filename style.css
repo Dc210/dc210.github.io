@@ -19,7 +19,7 @@ h1 {
     text-align:end;
 }
 .headerMain {
-    padding: auto;
+    padding:0em;
     background-color:dimgray;
     border-style: none;
 }

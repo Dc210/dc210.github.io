@@ -5,6 +5,8 @@ body {
     background-color: lightblue;
 }
 h1 {
+    line-height:75%;
+    margin-top:0px;
     text-align:left;
     color:black;
     font-size:3.5em;

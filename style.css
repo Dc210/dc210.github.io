@@ -1,6 +1,12 @@
 body {
     background-color: lightblue;
 }
+h1 {
+    text-align:left;
+    color:black;
+    font-size:82px;
+    font-family: monospace;
+}
 .greyText {
     color:slategray;
 }
@@ -11,8 +17,5 @@ body {
     text-align:end;
 }
 .headerMain {
-    color:black;
-    text-align:left;
-    font-size:82px;
-    font-family: monospace;
+    padding: auto;
 }

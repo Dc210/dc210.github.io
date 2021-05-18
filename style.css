@@ -147,4 +147,10 @@ a.button:hover, a.button:active {
     .columnL, .columnL2, .columnR, .columnR2 {
       width: 100%;
     }
+    .topBar a{
+        font-size: .8rem;
+    }
+    .textColumnLargeL {
+        font-size: 2rem;
+    }
   }

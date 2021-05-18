@@ -35,16 +35,17 @@ a.button:hover, a.button:active {
     background-color: rgb(90, 90, 90);
     position:sticky;
     position: -webkit-sticky;
-    top: 10;
+    top: 0;
     padding-left: 16px;
 }
 
 .topBar a{
     float: left;
+    font-family: Days-One, sans-serif;
     display:block;
     color:silver;
     text-align: center;
-    padding: 1em 1.2em;
+    padding: 16px 20px;
     text-decoration: none;
 }
 
@@ -66,7 +67,19 @@ a.button:hover, a.button:active {
     position: -webkit-sticky;
     top: 0;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     background-color:dimgray;
     border-style: none;
+    line-height:75%;
+    margin-top:0px;
+    text-align:left;
+    color:black;
+    font-size:3.5em;
+    font-family:Days-One, sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

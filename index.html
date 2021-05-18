@@ -9,39 +9,59 @@
         <meta name="keywords" content="DennyC, Denny, Denny Chau, Denny Music, Denny Songs">
         <meta name="author" content="Denny Chau">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Favicon-->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+        <!--Style-->
+        <style>
+            .wishesBG {
+                max-width: 100%;
+                max-height: 30%;
+                background-image: url(images/wishes.png);
+                background-size: cover;
+            }
+            .wishesBG:hover {
+                opacity: 75%;
+                color:midnightblue;
+            }
+        </style>
     </head>
     <body>
         <div class="header">
             <b>DennyC - Denny Chau</b>
         </div>
         <div class="topBar">
-            <a href="index.html"><img src="images/reddclogo.png" padding="0" width="24" height="24"></a>
-            <a href="#">Music</a>
-            <a href="#">CS</a>
-            <a href="#">Shop</a>
+            <a href="index.html" title="Home"><img src="images/reddclogo.png" padding="0" width="24" height="24"></a>
+            <a href="#" title="Coming Soon!">Music</a>
+            <a href="#" title="Coming Soon!">CS</a>
+            <a href="#" title="Coming Soon!">Shop</a>
             <a href="pages/about.html">About Me</a>
         </div>
-        <div class="centerAlign">
-            <p>
-                <div class="greyText">Testing text to see where it goes.</div>
-            </p>
-            <p>
-                <img src="images/Wishes.png" class="middle centerAlign" alt="Wishes - DennyC" height="250px" width="250px" title="Wishes">
-            </p>
-            <p>
-                <b><a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Video</a></b>
-                <div class="greyText">Who knows how far this can go.</div>
-            </p>
-            <p>
-                <b><a class="button" href="pages/about.html">About Me</a></b>
-            </p>
-            <p>
-                <iframe src="https://open.spotify.com/embed/playlist/2yrtotdg30XKpI0J0xAWCc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </p>
+        <div class="row">
+            <div class="wishesBG">
+                <div class="centerAlign greyText" style="font-size: 3em; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+                    NEW SONG COMING SOON
+                    <div class="centerAlign" style="font-size: 6em; font-family:Georgia, 'Times New Roman', Times, serif;">
+                        WISHES
+                    </div>
+                </div>>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="columnL" style="background-color: cadetblue; padding-top:20px;">
+                <div class="textColumnLargeL">Testing text to see where it goes.
+                    <b><a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Video</a></b>
+                </div>
+                <div class="textColumnLargeL">Who knows how far this can go.
+                     <b><a class="button" href="pages/about.html">About Me</a></b>
+                </div>
+            </div>
+            <div class="columnR2" style="background-color: coral;">
+                <iframe src="https://open.spotify.com/embed/playlist/2yrtotdg30XKpI0J0xAWCc" width="100%" height="380" frameborder="0" text-align="center" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
         </div>
     </body>
 </html>

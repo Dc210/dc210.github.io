@@ -50,7 +50,7 @@ a.button:hover, a.button:active {
 }
 .wishesBG:hover {
     opacity: 75%;
-  
+    color:midnightblue;
 }
 
 .topBar {
@@ -151,7 +151,7 @@ a.button:hover, a.button:active {
         -webkit-text-stroke: black 1px;
     }
     a.button:link, a.button:visited {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 }
 

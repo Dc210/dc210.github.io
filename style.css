@@ -114,11 +114,25 @@ a.button:hover, a.button:active {
 
 .columnL {
     flex: 80%;
+}
 
+.columnLGraphics {
+    background-color: cadetblue; 
+    padding-top:3rem; 
+    padding-left: 1rem; 
+    padding-bottom: 3rem; 
+    font-weight: 1000;
 }
 
 .columnS {
     flex: 20%;
+}
+
+.columnSGraphics {
+    background-color: coral; 
+    padding-top: 3rem; 
+    padding-bottom: 3rem; 
+    font-weight: 1000;
 }
 
 .header {

@@ -131,6 +131,7 @@ a.button:hover, a.button:active {
     color:black;
     font-size:3.5rem;
     font-family:Days-One, sans-serif;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 768px) {

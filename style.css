@@ -32,7 +32,6 @@ a.button:link, a.button:visited {
     display: inline-block;
     font-size: .5rem;
     border-radius: 25px;
-
 }
   
 a.button:hover, a.button:active {

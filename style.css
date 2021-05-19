@@ -39,10 +39,14 @@ a.button:hover, a.button:active {
     background-color:gray;
 }
 
+#blackOutline {
+    -webkit-text-stroke: 4px black;
+}
+
 .wishesBG {
     max-width: 100%;
     max-height: 100%;
-    background-image: url(images/testing.png);
+    background-image: url(images/WishesBG.png);
     background-size: cover;
 }
 .wishesBG:hover {
@@ -74,43 +78,20 @@ a.button:hover, a.button:active {
     background-color: rgb(77, 77, 77);
 }
 
-.columnL {
-    float: left;
-    width: 80%;
-    /*padding-top: 20px;*/
-    height: 360px;
-}
-
-.columnL2 {
-    float: left;
-    width: 20%;
-    padding-top: 20px;
-    height: 380px;
-}
-
-.columnR {
-    float: right;
-    width: 80%;
-    /*padding-top: 20px;*/
-    height: 380px;
-}
-
-.columnR2 {
-    float: right;
-    width: 20%;
-    /*padding-top: 20px;*/
-    height: 380px;
-}
-
 .wide {
     height: 380px;
     width: auto;
 }
 
-.row:after {
-    content: "";
-    display:table;
-    clear: both;
+.bannerText1 {
+    font-size: 3rem; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding-top: 20px;
+}
+
+.bannerText2 {
+    font-size: 10rem; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .greyText {
@@ -121,12 +102,21 @@ a.button:hover, a.button:active {
     text-align:center;
 }
 
-.textColumnLargeL {
-    padding-left: 36px;
+.row {
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
     text-align: left;
-    color:rgb(20, 20, 20);
-    font-size: 4rem;
 }
+
+.columnL {
+    flex: 80%;
+}
+
+.columnS {
+    flex: 20%;
+}
+
 .header {
     /*position:sticky;
     position: -webkit-sticky;*/
@@ -143,14 +133,25 @@ a.button:hover, a.button:active {
     font-family:Days-One, sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-    .columnL, .columnL2, .columnR, .columnR2 {
-      width: 100%;
-    }
+@media only screen and (max-width: 768px) {
     .topBar a{
         font-size: .8rem;
     }
-    .textColumnLargeL {
+    .row {
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .bannerText1 {
         font-size: 2rem;
     }
-  }
+    .bannerText2 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .row {
+        flex-direction: column;
+    }
+}
+

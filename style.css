@@ -94,7 +94,11 @@ a.button:hover, a.button:active {
 }
 
 .greyText {
-    color:slategray;
+    color:rgb(146, 150, 153);
+}
+
+.whiteText {
+    color:ghostwhite;
 }
 
 .centerAlign {
@@ -122,7 +126,7 @@ a.button:hover, a.button:active {
     position: -webkit-sticky;*/
     top: 0;
     padding-top: 0px;
-    padding-bottom: 13px;
+    padding-bottom: 11px;
     background-color:dimgray;
     border-style: none;
     line-height:75%;

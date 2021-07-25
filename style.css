@@ -152,6 +152,14 @@ a.button:hover, a.button:active {
     font-weight: 800;
 }
 
+.footer {
+    flex:100%;
+    position:static;
+    bottom: 0;
+    padding: 1rem;
+    background-color: gray;
+}
+
 @media only screen and (max-width: 768px) {
     .topBar a{
         font-size: .8rem;

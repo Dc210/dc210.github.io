@@ -135,6 +135,44 @@ a.button:hover, a.button:active {
     font-weight: 1000;
 }
 
+.smlinks {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 1rem;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.smlinks:hover {
+    opacity: .8;
+}
+
+.smlinks-youtube {
+    background-color: #FF0000;
+    color: white;
+}
+
+.smlinks-twitter {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.smlinks-instagram {
+    background-color: #5B51D8;
+    color: white;
+}
+
+.smlinks-linkedin {
+    background-color: #2867b2;
+    color: white;
+}
+
+.smlinks-tiktok {
+    background-color: white;
+    color: black;
+}
+
 .header {
     /*position:sticky;
     position: -webkit-sticky;*/

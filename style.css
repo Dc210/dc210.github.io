@@ -140,7 +140,7 @@ a.button:hover, a.button:active {
     font-size: 1rem;
     width: 1rem;
     text-align: center;
-    margin: 5px 2px;
+    text-decoration: none;
     border-radius: 50%;
 }
 

@@ -242,6 +242,15 @@ a.button:hover, a.button:active {
     .footer {
         flex-direction: column;
     }
+    .footerL {
+        text-align: center;
+    }
+    .footerM {
+        text-align: center;
+    }
+    .footerR {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -250,6 +259,15 @@ a.button:hover, a.button:active {
     }
     .footer {
         flex-direction: column;
+    }
+    .footerL {
+        text-align: center;
+    }
+    .footerM {
+        text-align: center;
+    }
+    .footerR {
+        text-align: center;
     }
 }
 

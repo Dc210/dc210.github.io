@@ -194,6 +194,7 @@ a.button:hover, a.button:active {
 .footer {
     display: flex;
     flex:100%;
+    flex-direction: row;
     position:relative;
     bottom: 0;
     padding: 1rem;
@@ -238,10 +239,16 @@ a.button:hover, a.button:active {
     a.button:link, a.button:visited {
         font-size: .6rem;
     }
+    .footer {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
     .row {
+        flex-direction: column;
+    }
+    .footer {
         flex-direction: column;
     }
 }
